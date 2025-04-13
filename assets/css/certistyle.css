@@ -1,0 +1,149 @@
+h1{
+    
+    color: white;
+    font-size:69px ;
+    margin: 0;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+nav{
+    background-image: url(../images/certi2.jpg);
+    color: white;
+    
+    font-style: italic;
+  }
+  ul,li,h2{
+    display: inline;
+  }
+   nav ul{
+    margin-left: 65%;
+  }
+  nav li{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  a{
+  color:white;
+  
+  }
+  a:hover{
+    color: skyblue;
+  }
+
+.oracle{
+    text-align: center;
+}
+.java {
+    text-align: center;
+    
+}
+
+.java p{
+    color: white;
+    font-size: 30px;
+}
+
+.comnet{
+    text-align: center;
+     
+}
+.comnet img{
+    width: 555px;
+    height: 393px;
+}
+.comnet p{
+    color:white;
+    font-size: 30px;
+}
+.oracle p{
+    color:white;
+    font-size: 30px;
+}
+.icons{
+ 
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0px;
+  }
+  .icons a{
+  color:skyblue;
+  }
+  .icons a:hover{
+    color:white;
+  }
+  .content{
+    height:500px;
+    width: 800px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-right: 10%;
+    
+  
+  }
+  .image{
+    height:500px;
+    width:400px;
+     position: absolute;
+     top: 60px;
+     left: 60px;
+    margin-left: 10%;
+    margin-right:70% ;
+   
+  }
+  .image img{
+    height:500px;
+    width:500px;
+   margin-top: 20%;
+    justify-content: center;
+    border-radius: 10%;
+    display:flex;
+   
+  
+  }
+  .image1{
+    height:500px;
+    width:400px;
+     position: absolute;
+     top: 800px;
+     left: 60px;
+    margin-left: 10%;
+    margin-right:70% ;
+   
+  }
+  .image1 img{
+    height:500px;
+    width:500px;
+   margin-top: 20%;
+    justify-content: center;
+    border-radius: 10%;
+    display:flex;
+   
+  
+  }
+  .image2{
+    height:500px;
+    width:400px;
+     position: absolute;
+     top: 1500px;
+     left: 60px;
+    margin-left: 10%;
+    margin-right:70% ;
+   
+  }
+  .image2 img{
+    height:500px;
+    width:500px;
+   margin-top: 20%;
+    justify-content: center;
+    border-radius: 10%;
+    display:flex;
+   
+  
+  }
+
+

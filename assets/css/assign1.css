@@ -1,0 +1,202 @@
+
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 69px;
+    font-style: italic;
+    margin:0;
+  }
+  nav{
+    background-image:url(../images/laser\ cutting.jpg);
+    
+    color: white;
+    
+    font-style: italic;
+  }
+  ul,li,h2{
+    display: inline;
+  }
+   nav ul{
+    margin-left: 65%;
+  }
+  nav li{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+   nav a{
+  color:white;
+  
+  }
+  nav a:hover{
+    color: skyblue;
+  }
+.content {
+    height:500px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+       
+            color: #fff;
+}
+.icons {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  margin-top: 100px;
+  clear: both;
+  width: 100%;
+}
+.icons a {
+  color: skyblue;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.icons a:hover {
+  color: white;
+}
+h2, h3 {
+    color: #fff;
+}
+a {
+    color: #1e90ff;
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.center-image img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+p {
+    text-align: justify;
+}*/
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(71, 65, 65);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+h1, h2, h3 {
+  color: #fff;
+}
+a {
+  color: #1e90ff;
+}
+.center-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.center-image img {
+  width: 300px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  float: right;
+}
+p {
+  text-align: justify;
+}
+.content {
+  flex: 1;
+  padding: 20px 100px ; /* Reduce the left and right empty space */
+}
+
+ul {
+  margin-left: 20px;
+}
+.icons{
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  background-color: #111;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin:0px;
+}
+.icons a{
+  color: skyblue;
+  text-decoration: none;
+  /*margin: 0 15px;*/
+}
+.icons a:hover{
+  color: white;
+}
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 69px;
+  font-style: italic;
+  margin:0;
+}
+nav {
+  background-image: url(../images/laser\ cutting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-style: italic;
+}
+
+ nav ul,nav li,nav h2{
+  display: inline;
+}
+ nav ul{
+  margin-left: 65%;
+}
+nav li{
+  margin-left: 10px;
+  cursor: pointer;
+}
+ nav a{
+color:white;
+
+}
+nav a:hover{
+  color: skyblue;
+}
+ul {
+  list-style-type: disc;
+  color: white; /* This will show simple dot bullets */
+  margin-left: 20px;
+}
+ul li {
+  margin-bottom: 5px;
+}
+

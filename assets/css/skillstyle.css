@@ -1,0 +1,61 @@
+h1{
+    color: white;
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 69px;
+    font-style: italic;
+    margin:0;
+}
+nav{
+    background-image: url(../images/skillsbg2.avif);
+    color: white;
+    
+    font-style: italic;
+  }
+  ul,li,h2{
+    display: inline;
+  }
+   nav ul{
+    margin-left: 65%;
+  }
+  nav li{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  a{
+  color:white;
+  
+  }
+  a:hover{
+    color: skyblue;
+  }
+
+
+ 
+.skill img{
+    border-radius: 20%;
+    height: auto;
+    width: auto;
+}
+.skill ul{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.icons{
+ 
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0px;
+  }
+  .icons a{
+  color:skyblue;
+  }
+  .icons a:hover{
+    color:white;
+  }
+  

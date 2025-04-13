@@ -1,0 +1,134 @@
+
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    h1 {
+      color: white;
+
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 69px;
+      font-style: italic;
+      margin:0;
+      text-shadow: 8px 8px 10px rgb(113, 13, 206),-8px -8px 10px rgb(199, 183, 183); 
+      
+   
+  }
+  
+
+
+
+nav{
+  background-image: url(../images/projectbimg.jpg);
+   
+    color: white;
+    
+    font-style: italic;
+  }
+  ul,li,h2{
+    display: inline;
+  }
+   nav ul{
+    margin-left: 65%;
+  }
+  nav li{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+   nav a{
+  color:white;
+  
+  }
+  a:hover{
+    color: skyblue;
+  }
+.pro1 p{
+    font-size: 20px;
+    color: white;
+}
+h2{
+    color:white;
+}
+.pro1 img{
+    width:555px;
+    height: 555px;
+}
+a{
+    color: red;
+}
+.pro2 p{
+    font-size: 20px;
+    color: white;   
+}
+.icons{
+ 
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0px;
+  }
+  .icons a{
+  color:skyblue;
+  }
+  .icons a:hover{
+    color:white;
+  }
+  .content{
+    height:500px;
+    width: 700px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-right: 10%;
+    
+  
+  }
+  .image{
+    height:500px;
+    width:400px;
+     position: absolute;
+     top: 60px;
+     left:2px;
+    margin-left: 10%;
+    margin-right:70% ;
+   
+  }
+  .image img{
+    height:500px;
+    width:500px;
+   margin-top: 20%;
+    justify-content: center;
+    border-radius: 10%;
+    display:flex;
+    /*border: solid skyblue 10px;*/
+    box-shadow: 10px 10px 10px rgb(152, 150, 150);
+   
+  
+  }
+  .image1{
+    height:500px;
+    width:400px;
+     position: absolute;
+     top: 700px;
+     left: 2px;
+    margin-left: 10%;
+    margin-right:70% ;
+   
+  }
+  .image1 img{
+    height:500px;
+    width:500px;
+   margin-top: 20%;
+    justify-content: center;
+    border-radius: 10%;
+    display:flex;
+    /*border: solid skyblue 10px;*/
+    box-shadow: 10px 10px 10px grey;
+   
+  
+  }
